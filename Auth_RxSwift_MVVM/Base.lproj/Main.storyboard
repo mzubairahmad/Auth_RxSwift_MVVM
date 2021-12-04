@@ -45,9 +45,6 @@
                                         <rect key="frame" x="0.0" y="202.5" width="354" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Signup"/>
-                                        <connections>
-                                            <segue destination="WMh-uz-XSk" kind="presentation" modalPresentationStyle="fullScreen" id="dsd-uw-iVH"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -60,6 +57,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="j8V-ja-MYY" secondAttribute="trailing" constant="30" id="nWC-li-50W"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTextfield" destination="iA7-DS-Pbr" id="KzI-bz-IBn"/>
+                        <outlet property="nameTextfield" destination="UqB-sA-qIl" id="WMd-i7-GRw"/>
+                        <outlet property="phoneTextfield" destination="S9E-tt-wbn" id="iLO-bI-O78"/>
+                        <outlet property="signupButton" destination="doT-g5-pPM" id="t9s-Bi-zjO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -68,13 +71,13 @@
         <!--Welcome Controller-->
         <scene sceneID="lUt-1t-o6o">
             <objects>
-                <viewController id="WMh-uz-XSk" customClass="WelcomeController" customModule="Auth_RxSwift_MVVM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WelcomeController" id="WMh-uz-XSk" customClass="WelcomeController" customModule="Auth_RxSwift_MVVM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vxj-sv-U32">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELCOME name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYj-35-Gop">
-                                <rect key="frame" x="142.5" y="438" width="129.5" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome, your registration is complete" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYj-35-Gop">
+                                <rect key="frame" x="59" y="438" width="296.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

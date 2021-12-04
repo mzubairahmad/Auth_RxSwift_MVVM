@@ -17,6 +17,15 @@
 		058501EB275A856B0007BBE8 /* Auth_RxSwift_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058501EA275A856B0007BBE8 /* Auth_RxSwift_MVVMUITests.swift */; };
 		058501ED275A856B0007BBE8 /* Auth_RxSwift_MVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058501EC275A856B0007BBE8 /* Auth_RxSwift_MVVMUITestsLaunchTests.swift */; };
 		058501FA275A9DD10007BBE8 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058501F9275A9DD10007BBE8 /* WelcomeController.swift */; };
+		05850201275B605C0007BBE8 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05850200275B605C0007BBE8 /* UIViewController+Extensions.swift */; };
+		05850205275B69570007BBE8 /* SignupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05850204275B69570007BBE8 /* SignupModel.swift */; };
+		05850208275B69FA0007BBE8 /* ValidationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05850207275B69FA0007BBE8 /* ValidationViewModel.swift */; };
+		0585020A275B6AC00007BBE8 /* EmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05850209275B6AC00007BBE8 /* EmailViewModel.swift */; };
+		0585020C275B7A910007BBE8 /* PhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0585020B275B7A910007BBE8 /* PhoneViewModel.swift */; };
+		0585020E275B7BDA0007BBE8 /* NameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0585020D275B7BDA0007BBE8 /* NameViewModel.swift */; };
+		05850211275B7D1B0007BBE8 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05850210275B7D1B0007BBE8 /* SignupViewModel.swift */; };
+		05850214275B81B20007BBE8 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05850213275B81B20007BBE8 /* APIService.swift */; };
+		05850216275B83620007BBE8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05850215275B83620007BBE8 /* User.swift */; };
 		438E938FD5917ADC5CAA4FFC /* Pods_Auth_RxSwift_MVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968CAF8DEDC1111DDC4B00C0 /* Pods_Auth_RxSwift_MVVMTests.framework */; };
 		6DEB4A5DC3F95D55C0CC8FB2 /* Pods_Auth_RxSwift_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1166CBB6A79F58C781D7D82F /* Pods_Auth_RxSwift_MVVM.framework */; };
 		FB5DCF8F15C73280348B7315 /* Pods_Auth_RxSwift_MVVM_Auth_RxSwift_MVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7702FD00AE97F5FE37A337 /* Pods_Auth_RxSwift_MVVM_Auth_RxSwift_MVVMUITests.framework */; };
@@ -54,6 +63,15 @@
 		058501EA275A856B0007BBE8 /* Auth_RxSwift_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth_RxSwift_MVVMUITests.swift; sourceTree = "<group>"; };
 		058501EC275A856B0007BBE8 /* Auth_RxSwift_MVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth_RxSwift_MVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		058501F9275A9DD10007BBE8 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
+		05850200275B605C0007BBE8 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		05850204275B69570007BBE8 /* SignupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupModel.swift; sourceTree = "<group>"; };
+		05850207275B69FA0007BBE8 /* ValidationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewModel.swift; sourceTree = "<group>"; };
+		05850209275B6AC00007BBE8 /* EmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewModel.swift; sourceTree = "<group>"; };
+		0585020B275B7A910007BBE8 /* PhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewModel.swift; sourceTree = "<group>"; };
+		0585020D275B7BDA0007BBE8 /* NameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewModel.swift; sourceTree = "<group>"; };
+		05850210275B7D1B0007BBE8 /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		05850213275B81B20007BBE8 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		05850215275B83620007BBE8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1166CBB6A79F58C781D7D82F /* Pods_Auth_RxSwift_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auth_RxSwift_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E401B0A24FFE19A00DB81B /* Pods-Auth_RxSwift_MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auth_RxSwift_MVVM.release.xcconfig"; path = "Target Support Files/Pods-Auth_RxSwift_MVVM/Pods-Auth_RxSwift_MVVM.release.xcconfig"; sourceTree = "<group>"; };
 		3CAE929C03C40C3821DE64F1 /* Pods-Auth_RxSwift_MVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auth_RxSwift_MVVMTests.debug.xcconfig"; path = "Target Support Files/Pods-Auth_RxSwift_MVVMTests/Pods-Auth_RxSwift_MVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +137,9 @@
 			isa = PBXGroup;
 			children = (
 				058501FB275AA1110007BBE8 /* AppDelegate */,
+				058501FF275B602E0007BBE8 /* Extentions */,
+				05850206275B69DB0007BBE8 /* Protocols */,
+				05850212275B81890007BBE8 /* Services */,
 				058501FD275AA1440007BBE8 /* Models */,
 				058501FE275AA2640007BBE8 /* Views */,
 				058501FC275AA1350007BBE8 /* ViewModels */,
@@ -159,6 +180,10 @@
 		058501FC275AA1350007BBE8 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				0585020D275B7BDA0007BBE8 /* NameViewModel.swift */,
+				05850209275B6AC00007BBE8 /* EmailViewModel.swift */,
+				0585020B275B7A910007BBE8 /* PhoneViewModel.swift */,
+				05850210275B7D1B0007BBE8 /* SignupViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -166,6 +191,8 @@
 		058501FD275AA1440007BBE8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				05850204275B69570007BBE8 /* SignupModel.swift */,
+				05850215275B83620007BBE8 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -177,6 +204,30 @@
 				058501F9275A9DD10007BBE8 /* WelcomeController.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		058501FF275B602E0007BBE8 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				05850200275B605C0007BBE8 /* UIViewController+Extensions.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		05850206275B69DB0007BBE8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				05850207275B69FA0007BBE8 /* ValidationViewModel.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		05850212275B81890007BBE8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				05850213275B81B20007BBE8 /* APIService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		1156F3A7FD367F88D36B6FF7 /* Frameworks */ = {
@@ -441,9 +492,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05850216275B83620007BBE8 /* User.swift in Sources */,
 				058501CE275A85690007BBE8 /* ViewController.swift in Sources */,
 				058501CA275A85690007BBE8 /* AppDelegate.swift in Sources */,
+				05850201275B605C0007BBE8 /* UIViewController+Extensions.swift in Sources */,
+				0585020E275B7BDA0007BBE8 /* NameViewModel.swift in Sources */,
+				05850208275B69FA0007BBE8 /* ValidationViewModel.swift in Sources */,
+				0585020A275B6AC00007BBE8 /* EmailViewModel.swift in Sources */,
+				05850211275B7D1B0007BBE8 /* SignupViewModel.swift in Sources */,
+				05850214275B81B20007BBE8 /* APIService.swift in Sources */,
 				058501FA275A9DD10007BBE8 /* WelcomeController.swift in Sources */,
+				0585020C275B7A910007BBE8 /* PhoneViewModel.swift in Sources */,
+				05850205275B69570007BBE8 /* SignupModel.swift in Sources */,
 				058501CC275A85690007BBE8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
